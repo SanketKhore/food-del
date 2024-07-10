@@ -1,0 +1,54 @@
+.sidebar-container{
+    width: 15vw;
+    height: 100vh;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+.sidebar{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sidebar button{
+    padding: 5px;
+    border: 1px solid black;
+    border-right: none;
+    font-size: x-large;
+    width: 100%;
+    background: none;
+}
+.active{
+    background-color: rgba(255, 99, 71, 0.229);
+    border: 1px solid tomato; 
+    border-right: none;
+}
+.active button{
+    border: none;
+    color: tomato;
+}
+@media screen and (max-width:840px) {
+    .sidebar-container{
+        width: 20vw;
+    }
+    .sidebar button{
+        padding: 5px;
+        font-size: larger;
+    }
+}
+@media screen and (max-width:600px) {
+    .sidebar-container{
+        width: 25vw;
+    }
+    .sidebar button{
+        padding: 5px;
+        font-size: large;
+    }
+}
+@media screen and (max-width:540px) {
+    .sidebar button{
+        padding: 2px;
+        font-size: large;
+    }
+}

@@ -1,0 +1,26 @@
+.navbar-container{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 100%;
+    width: 200px;
+}
+.admin-panel-text{
+    font-size: x-large;
+    font-weight:600;
+    color: tomato;
+}
+@media screen and (max-width:540px){
+    .logo img{
+        width: 150px;
+    }
+    .admin-panel-text{
+        font-size: large;
+    }
+}

@@ -1,0 +1,40 @@
+.home-container{
+    margin: 10px 0px;
+    height: 60vh;
+    width: 100%;
+}
+.home{
+    height: 100%;
+    width: 100%;
+    background: url("../../assets/header_img.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.contents{
+    width: 55vw;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.spans{
+    font-size: xx-large;
+}
+.contents button{
+    padding: 15px 20px;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.contents button:hover{
+    transition: 0.2s;
+    border: 1px solid white;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}

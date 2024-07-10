@@ -1,0 +1,97 @@
+.list-container{
+    width: 100vw;
+    padding-top: 5vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 90vh;
+    overflow: scroll;
+}
+.list{
+    border-collapse: collapse;
+    width: 70vw;
+}
+tr{
+    border: 1px solid black;
+}
+th{
+    background-color: rgb(255, 99, 71);
+    padding: 10px;
+    color: white;
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+td img{
+    height: 80px;
+    width: 80px;
+}
+.remove{
+    background-color: rgba(250, 235, 215, 0.512);
+}
+.remove:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: xx-large;
+    color: red;
+    background-color: rgb(250, 235, 215);
+}
+@media screen and (max-width:840px) {
+    .list{
+        width: 60vw;
+    }
+    td img{
+        width: 60px;
+        height: 60px;
+    }
+    td,th{
+        padding: 5px;
+        font-size: small;
+    }
+}
+@media screen and (max-width:600px) {
+    .list{
+        width: 60vw;
+    }
+    td img{
+        width: 60px;
+        height: 60px;
+    }
+    td,th{
+        padding: 5px;
+        font-size: small;
+    }
+    .remove:hover{
+        font-size: x-large;
+    }
+}
+@media screen and (max-width:540px) {
+    .list{
+        width: 60vw;
+    }
+    td img{
+        width: 40px;
+        height: 40px;
+    }
+    td,th{
+        padding: 5px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:440px) {
+    .list{
+        width: 60vw;
+    }
+    td img{
+        width: 30px;
+        height: 30px;
+    }
+    td,th{
+        padding: 5px;
+        font-size: 8px;
+    }
+    .remove:hover{
+        font-size: large;
+    }
+}
